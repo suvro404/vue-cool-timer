@@ -1,4 +1,4 @@
-import VueCoolTimer from './components/VueCoolTimer.vue';
+import VueCoolTimer from './VueCoolTimer.vue';
 
 export default {
     install(Vue, options) {

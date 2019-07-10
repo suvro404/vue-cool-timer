@@ -1,10 +1,5 @@
 # Directories
 node_modules
-public
-
-# Vue root files
-App.vue
-Main.js
 
 # Editor directories and files
 .idea
