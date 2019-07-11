@@ -1,6 +1,6 @@
 {
   "name": "vue-cool-timer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Count down timer made with vue js",
   "main": "src/index.js",
   "scripts": {
