@@ -22,7 +22,8 @@ new Vue({
                 format:"dd-hh-mm-ss"
         }
     }
-  }
+  },
+  components: { VueCoolTimer }
 });
 ```
 
