@@ -1,30 +1,42 @@
 {
   "name": "vue-cool-timer",
   "version": "0.1.0",
-  "description": "A Vue.js component that displays a count down timer",
-  "private": false,
-  "main": "./dist/index.cjs.js",
+  "description": "Count down timer made with vue js",
+  "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-bili": "bili --name index --plugin vue --vue.css false"
-  },
-  "author": "Suvro Debnath",
-  "license": "MIT",
-  "dependencies": {
-    "vue": "^2.6.10"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suvro404/vue-cool-timer"
+    "url": "https://github.com/suvro404/vue-cool-timer.git"
   },
-  "files": [
-    "dist/*"
+  "bugs": {
+    "url": "https://github.com/suvro404/vue-cool-timer/issues"
+  },
+  "keywords": [
+    "timer",
+    "vue",
+    "vuejs",
+    "count-down"
   ],
+  "author": "Suvro",
+  "license": "ISC",
   "devDependencies": {
-    "@vue/cli-service": "^3.9.0",
-    "bili": "^4.8.0",
-    "rollup-plugin-vue": "^5.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": ">=3.1.11"
+  },
+  "dependencies": {
+    "vue": "^2.5.9"
   }
 }
